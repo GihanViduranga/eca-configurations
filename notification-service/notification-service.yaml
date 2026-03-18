@@ -4,8 +4,8 @@ server:
 spring:
   data:
     mongodb:
-      uri: mongodb://localhost:27017/eca_notification_db
-      database: eca_notification_db
+      uri: mongodb+srv://gihanvidu:199884@ecanotificationdb.6lmcpdk.mongodb.net/?appName=ecanotificationdb
+      database: ecanotificationdb
 
 eureka:
   client:
