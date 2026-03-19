@@ -24,4 +24,4 @@ eureka:
   instance:
     prefer-ip-address: false
     hostname: localhost
-    instance-id: ${spring.application.name}:${server.port}
+    instance-id: ${spring.application.name}:${server.port}  
