@@ -19,8 +19,8 @@ spring:
   cloud:
     gcp:
       storage:
-        bucket-name: eca-product-images
-        project-id: your-gcp-project-id
+        bucket-name: ecom-bucket-gcp
+        project-id: e-commerce-490707
         credentials:
           location: classpath:gcp-credentials.json
 
