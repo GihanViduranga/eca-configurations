@@ -7,9 +7,9 @@ spring:
   config:
     import: "optional:configserver:http://localhost:8888"
   datasource:
-    url: jdbc:mysql://localhost:3306/eca_product_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
-    username: root
-    password: 199884
+    url: jdbc:mysql://localhost:3306/ecommerce_db?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true
+    username: app_user
+    password: App@1234
     driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
